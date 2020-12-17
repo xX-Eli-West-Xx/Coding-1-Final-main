@@ -1,0 +1,55 @@
+h1{
+    font: arial;
+    font-size: 20px;
+}
+td{
+    background-color: #9fc4f5;
+    border-color: #9fc4f5;
+    font: arial;
+}
+p{
+    font-size: 30px;
+    font: arial;
+    text-align: justify;
+}
+
+/*     Classes     */
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+.page-container{
+    position: relative;
+    min-height: 100vh;
+}
+.content-wrap{
+    padding-bottom: 2.5rem;
+}
+.link{
+    color: black;
+}
+.footer-text{
+    font-size: small;
+}
+.other-img{
+    border: double;
+    border-radius: 50%;
+    border-width: 2px;
+    width: 1000px;
+    align-items: center;
+}
+
+/*   directional crap     */
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
